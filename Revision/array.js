@@ -36,7 +36,6 @@ const nestedNums = [9,[1, 2], [3, 4, [7,8]], [5]];
 // Expected: [1, 2, 3, 4, 5]
 let flaten = [];
 function flatMyArr(nums) {
-  
   nums.forEach((arr) => {
     // normla value
     if (!Array.isArray(arr)) {
